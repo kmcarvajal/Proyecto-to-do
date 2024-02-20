@@ -1,0 +1,17 @@
+﻿
+CREATE DATABASE PAGINA;
+
+
+USE PAGINA;
+
+CREATE TABLE USUARIO(
+Nombre VARCHAR(20) NOT NULL,
+Apellido VARCHAR(20) NOT NULL,
+Tdocumento VARCHAR(20) NOT NULL,
+Ndocumento INT NOT NULL primary key,
+Fnacimiento DATE,
+Edad INT,
+Tcontacto VARCHAR(10) NOT NULL,
+Ncontacto INT NOT NULL,
+Contrasena VARCHAR(120) NOT NULL
+);

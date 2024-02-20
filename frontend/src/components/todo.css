@@ -1,0 +1,129 @@
+body {
+	font-family: 'VERDANA';
+	max-width: 1200px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.card-to-do {
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	padding: 25px;
+	border-radius: 20px;
+	width: 700px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.counter-todos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.counter-todos span {
+	color: #f29559;
+}
+
+ul {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+ul li {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+ul li span {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+ul li form {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.input-update {
+	border: none;
+	font-size: 18px;
+	color: #555;
+}
+
+.container-done {
+	width: 18px;
+	height: 24px;
+	border-radius: 50px;
+	border: 2px solid #09a129;
+	cursor: pointer;
+}
+
+.container-done.active {
+	background-color: #09a129;
+}
+
+.text-decoration-dashed {
+	text-decoration: line-through;
+}
+
+.btn-delete {
+	background-color: #ba181b;
+	color: #fff;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.btn-edit {
+	background-color: #00b4d8;
+	color: #fff;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+form {
+	display: flex;
+	gap: 20px;
+}
+
+.add-todo h3 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+
+.input-add {
+	border: none;
+	padding: 5px 40px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+	flex: 1;
+	font-size: 17px;
+	color: #555;
+}
+
+.btn-add {
+	border: none;
+	background-color: #00b4d8;
+	color: #fff;
+	padding: 5px 40px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 17px;
+}
